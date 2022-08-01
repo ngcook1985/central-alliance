@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9b812b4cd7.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        :root {
+            font-size: 62.5%;
+        }
+
+        .dropdown-toggle::after {
+            display: none;
+        }
+
+        .menu-item:focus .fa-chevron-down {
+            transform: rotate(180deg);
+            transition-property: transform;
+            transition-duration: .5s;
+        }
+
+        .nav { 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .header-center {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 80px;
+            width: 100%;
+            background-color: #E0E1E6;
+            box-shadow: 1px 1px 10px #866c35;
+        }
+
+
+        a {
+            color: inherit !important;
+            font-weight: 200 !important;
+            font-size: 1.6rem;
+        }
+
+        .dropdown-menu {
+            width: fit-content;
+            box-shadow: 1px 1px 10px #866c35;
+            background-color: #E0E1E6;
+            
+        }
+        /* .dropdown-menu.show {
+            top: auto !important;
+        } */
+
+        .menu-box {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .menu-image-box {
+            padding-right: 10px;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <div class="header">
+        <div class="header-left"></div>
+        <div class="header-center">
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">About us <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <div class="menu-box">
+                            <div class="menu-image-box">
+                                <img src="https://picsum.photos/400/300" alt="">
+                            </div>
+                            <div>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <!-- <hr class="dropdown-divider"> -->
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">The causes <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <div class="menu-box">
+                                <div class="menu-image-box">
+                                    <img src="https://picsum.photos/400/300" alt="">
+                                </div>
+                                <div>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li>
+                                        <!-- <hr class="dropdown-divider"> -->
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Central Alliance accredited <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <div class="menu-box">
+                                <div class="menu-image-box">
+                                    <img src="https://picsum.photos/400/300" alt="">
+                                </div>
+                                <div>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li>
+                                        <!-- <hr class="dropdown-divider"> -->
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Business plan <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <div class="menu-box">
+                                <div class="menu-image-box">
+                                    <img src="https://picsum.photos/400/300" alt="">
+                                </div>
+                                <div>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li>
+                                        <!-- <hr class="dropdown-divider"> -->
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Major donor <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <div class="menu-box">
+                                <div class="menu-image-box">
+                                    <img src="https://picsum.photos/400/300" alt="">
+                                </div>
+                                <div>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li>
+                                        <!-- <hr class="dropdown-divider"> -->
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link menu-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Memberships <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <div class="menu-box">
+                                <div class="menu-image-box">
+                                    <img src="https://picsum.photos/400/300" alt="">
+                                </div>
+                                <div>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li>
+                                        <!-- <hr class="dropdown-divider"> -->
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                   </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-right"></div>
+</body>
+
+</html>
