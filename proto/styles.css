@@ -18,6 +18,10 @@
             font-family: 'Roboto', sans-serif; 
             */
         }
+        
+        body {
+            background-color: var(--rgb-white);
+        }
 
         .header-top {
 
@@ -29,7 +33,7 @@
         .header {
             position: sticky;
             /* background-image: url(/Users/nickcook/repos/central-alliance/assets/images/elevation-map-clipart-13.png); */
-            background-image: url(https://www.pinclipart.com/picdir/big/382-3823909_abstract-lines-png-photos-abstract-lines-png-transparent.png);
+            /* background-image: url(https://www.pinclipart.com/picdir/big/382-3823909_abstract-lines-png-photos-abstract-lines-png-transparent.png); */
             background-size: cover;
             background-color: var(--rgb-green);
             background-blend-mode: multiply;   
@@ -127,6 +131,17 @@
             position: relative;
             align-self: flex-start;
             z-index: -10;
+        }
+
+        .explainer-video-wrapper {
+            margin-top: 50px;
+            width: 100vw;
+            
+        }
+
+        .explainer-video {
+            width: 100%;
+            
         }
 
         .custom-shape-divider-top-1659420986 {
